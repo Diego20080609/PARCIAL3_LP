@@ -55,7 +55,6 @@ pedido = []
 # Juan Bernal
 # --------------------------------------------------------------
 def registrar_producto(productos, pedido, codigo, cantidad):
-    """Valida y agrega un producto al pedido, actualizando las existencias."""
     # 1. Verificar que el código exista en el diccionario
     if codigo not in productos:
         print("Producto no encontrado.")
